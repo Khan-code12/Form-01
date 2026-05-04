@@ -90,7 +90,7 @@ class _FormPageState extends State<FormPage> {
 
                     const SizedBox(height: 10),
 
-                    // 🔥 Side by side row
+                   
                     Row(
                       children: [
                         Expanded(
@@ -177,7 +177,7 @@ class _FormPageState extends State<FormPage> {
 
               const SizedBox(height: 30),
 
-              // 🔥 Display submitted data
+              
               if (submittedData.isNotEmpty)
                 Card(
                   elevation: 5,
